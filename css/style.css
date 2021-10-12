@@ -40,14 +40,14 @@ body {
 
 
 .jumbotron .lead {
-    color: #a7a7a7;
+    color: #fff;
     margin: 25px 0;
 }
 
 .jumbotron small {
     font-size: 60%;
     font-style: italic;
-    color: #d0d0d0;
+    color: #fff;
 }
 
 .block-divider {
