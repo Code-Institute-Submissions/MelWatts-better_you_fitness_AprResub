@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap');
+
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 /* Containers */
     
@@ -17,4 +19,37 @@ body {
     justify-content: center;
 
     position: relative;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+.block-divider {
+    background-color: #fff;
 }
