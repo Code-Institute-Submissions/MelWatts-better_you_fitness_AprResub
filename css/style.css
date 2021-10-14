@@ -80,6 +80,14 @@ body {
     font-weight: bold;
 }
 
+.nav-link {
+color: #fff;
+}
+
+.nav-link:hover {
+    color: #DDA15E;
+    }
+
 .navbar .navbar-nav a {
     font-weight: bold;
 }
