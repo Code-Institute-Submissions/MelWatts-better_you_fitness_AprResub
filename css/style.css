@@ -56,6 +56,10 @@ body {
 
 /* Navbar */
 
+.nav-brand {
+    text-decoration: none;
+}
+
 .navalert-container {
     position: absolute;
     top: 0;
@@ -76,10 +80,6 @@ body {
     border: 0;
 }
 
-.navbar .navbar-brand {
-    font-weight: bold;
-}
-
 .nav-link {
 color: #fff;
 }
@@ -88,6 +88,3 @@ color: #fff;
     color: #DDA15E;
     }
 
-.navbar .navbar-nav a {
-    font-weight: bold;
-}
