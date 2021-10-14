@@ -88,3 +88,9 @@ color: #fff;
     color: #DDA15E;
     }
 
+/*button*/
+
+.btn:hover {
+    background-color: #DDA15E;
+}
+
