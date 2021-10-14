@@ -94,3 +94,14 @@ color: #fff;
     background-color: #DDA15E;
 }
 
+footer {
+    background-color: #606C38;
+    text-align: center;
+}
+
+.footerText {
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+    text-align: center;
+}
+
