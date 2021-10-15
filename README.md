@@ -38,20 +38,20 @@ A deployed version of my website can be found [here.] (https://melwatts.github.i
 User stories
 ## First time visitor goals
 
-* As a first time visitor, my aim is for parents  / carers of vulnerable children to feel there is help for them, they are not alone and my site will direct them to a solution
-* As a first time visitor, my aim is for people to be able to find what they are looking for very easily with an simple navigation through the site.
-* As a First Time Visitor, I want visitors easily understand the main purpose of the site and learn more about the organisation.
-* As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+* As a first time visitor, my aim is to feel engaged and drwn in by the big imagery.
+* As a first time visitor, my aim is to be able to find what I am looking for very easily with an simple navigation through the site.
+* As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+* As a First Time Visitor, I want to be able to easily navigate throughout the site to find contact forms and to sign up for a free trial.
 
 ## Returning visitor goals:
 
 * As a returning visitor, my aim is for the site to be familiar and clear for the visitor to find what they were previously researching.
 * As a returning visitor, I want my site to help reasure people they are in the correct place for the help or advice they need.
 * As a Returning Visitor, I want visitors to find the best way to get in contact with the organisation with any questions they may have.
-* As a Returning Visitor, I want visitors to find community links and help on external resources.
+* As a Returning Visitor, I want visitors to feel reasurred if they feel nervous about contacting us to discuss thier weight concerns.
 
 
-The end goal of the project is to help parents and carers if they are worried about their child's behaviour and wellbeing. Providing them with links to professionals and youtubes video's of meditations and techniques.
+The end goal of the project is to help people to reach their weight and fitness goal with confidence .
 
 ### UX stories
 

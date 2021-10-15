@@ -92,15 +92,16 @@ color: #fff;
 .info h2 {
     text-align: center;
     color: #283618;
-    margin: 50px;
+    margin: 22px;
 }
 
 .info{
-  margin: 0 auto;
-  width: 80%;
-  line-height: 30px;
-  text-align: justify;
+    margin: 0 auto;
+    width: 80%;
+    line-height: 30px;
+    text-align: justify;
 }
+
 
 /*button*/
 
