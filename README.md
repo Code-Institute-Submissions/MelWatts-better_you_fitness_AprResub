@@ -55,13 +55,13 @@ The end goal of the project is to help people to reach their weight and fitness 
 
 ### UX stories
 
-* As a user I want to find help as I'm worried about my child's behaviour.
-* As a user I want to find help as I'm worried about my child's wellbeing.
+* As a user I want to find help to improve my fitness.
+* As a user I want to find help and advice to reach my weight loss goals.
 * As a user I want to know what help or support is out there.
-* As a user I want to find out what professional therapy could I get for my loved one.
-* As a user I want to find out some tips to keep my child well and happy.
-* As a user I would like to feel I am not alone and things can be improved for my child and loved one.
-* As a user I would like to know the signs of mental health issues so I can look out for them.
+* As a user I want to find out what professional advice is available to me.
+* As a user I want to find out some tips to keep to maintain my weight and fitness levels.
+* As a user I would like to feel I am not alone and there is help for me.
+* As a user I would like to be educated in various nutrtion benefits to help with my personal goals.
 
 ## Strategy
 
@@ -72,12 +72,12 @@ The site navigation needs to be optimal to move to the preferred section of the 
 
 ### Business vision
 
-The purpose of this project is to give users peace of mind and help is out there. 
-The site also gives the users easy access to external sites to talk to professionals, find other people to talk to in the same position, and watch meditation and mindful videos .
+The purpose of this project is to give users peace of mind that help and advice or just something to socially do is out there. 
+The site also gives the users easy access to personal trainers and book specific classes for their needs.
 
 ## Scope
 
-I want my users to feel they are not alone, there are like minded parents / carers, professionals to talk to and generally help is out there for the ones they love. 
+I want my users to feel they are not alone, that  there is help to get them to thier weight and fitness goal or a place to meet likeminded friends whilst getting fit. 
 
 ## Structure
 
