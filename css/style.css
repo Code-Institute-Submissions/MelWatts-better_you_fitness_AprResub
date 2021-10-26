@@ -82,7 +82,7 @@ body {
 }
 
 .nav-link {
-color: #fff;
+    color: #fff;
 }
 
 .nav-link:hover {
@@ -102,16 +102,21 @@ color: #fff;
     text-align: justify;
 }
 
-.trainer {
-    padding: 30px;
-}
-
-
 /*button*/
 
 .btn:hover {
     background-color: #DDA15E;
 }
+
+img{
+    text-align: center;
+    width: inherit;
+}
+
+ p {
+     text-align: center;
+     width: inherit;
+ }
 
 footer {
     background-color: #283618;
@@ -142,4 +147,3 @@ footer {
     padding: 3%;
     color: #ffffff;
 }
-
