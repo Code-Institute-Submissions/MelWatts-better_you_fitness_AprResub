@@ -35,7 +35,7 @@ body {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 140px;
     color: white;
 }
 
@@ -111,6 +111,7 @@ body {
 img{
     text-align: center;
     width: inherit;
+    margin-bottom: 10%;
 }
 
  p {
@@ -121,6 +122,9 @@ img{
  .col-sm {
      margin-top: 20%;
  }
+
+ /*footer*/
+
 
 footer {
     background-color: #283618;
