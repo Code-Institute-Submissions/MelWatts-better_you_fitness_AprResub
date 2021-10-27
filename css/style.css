@@ -21,6 +21,19 @@ body {
     position: relative;
 }
 
+.container {
+    border: solid 1px #ff0000;
+}
+
+.container:before {
+    clear: both;
+}
+
+
+.container:after {
+    clear: both;
+}
+
 /* Jumbotron */
 
 .jumbotron {
@@ -95,13 +108,6 @@ body {
     margin: 22px;
 }
 
-.info{
-    margin: 0 auto;
-    width: 80%;
-    line-height: 30px;
-    text-align: justify;
-}
-
 /*button*/
 
 .btn:hover {
@@ -112,6 +118,7 @@ img{
     text-align: center;
     width: inherit;
     margin-bottom: 10%;
+    clear: both;
 }
 
  p {
@@ -120,7 +127,7 @@ img{
  }
 
  .col-sm {
-     margin-top: 20%;
+    clear: both;
  }
 
  /*footer*/
@@ -129,6 +136,8 @@ img{
 footer {
     background-color: #283618;
     text-align: center;
+    bottom: 0;
+    left: 0;
 }
 
 .footerText {
