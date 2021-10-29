@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    padding-top: 70px;
 }
 /* Containers */
     
@@ -21,18 +22,24 @@ body {
     position: relative;
 }
 
+.trainer-container {
+    height: 100vh;
+    background: url('../images/hero2.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 .container {
     border: solid 1px #ff0000;
 }
 
-.container:before {
-    clear: both;
-}
-
-
-.container:after {
-    clear: both;
-}
 
 /* Jumbotron */
 
@@ -84,7 +91,6 @@ body {
 }
 
 .navbar {
-    margin-bottom: 0;
     width: 100%;
     background-color: #000;
     border: 0;
