@@ -47,6 +47,42 @@ body {
     justify-content: center;
 }
 
+.pilates-container {
+    height: 60vh;
+    background: url('../images/pilates.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spin-container {
+    height: 60vh;
+    background: url('../images/spin.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circuit-container {
+    height: 60vh;
+    background: url('../images/circuit.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-fluid {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -139,14 +175,16 @@ img{
     clear: both;
 }
 
- p {
+p {
      text-align: center;
      width: inherit;
  }
 
- h1 {
+h1 {
      text-align: center;
  }
+
+div#map {min-height: 360px;}
 
  /*footer*/
 
