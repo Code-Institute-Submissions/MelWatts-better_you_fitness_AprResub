@@ -47,8 +47,9 @@ body {
     justify-content: center;
 }
 
-.container {
-    border: solid 1px #ff0000;
+.container-fluid {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -143,8 +144,8 @@ img{
      width: inherit;
  }
 
- .col-sm {
-    clear: both;
+ h1 {
+     text-align: center;
  }
 
  /*footer*/

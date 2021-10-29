@@ -7,7 +7,7 @@ function initMap() {
         }
     });
 
-    var labels = "AIzaSyBoj3Qd7B3WIEseB7KD5bSs7HaQ9rUBoFw";
+    var labels = "AIzaSyDVtuPoUye4BAmEca2gLEJRlqfDScyGs3U";
 
     var markers = locations.map(function(location, i) {
         return new google.maps.Marker({
