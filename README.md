@@ -72,7 +72,7 @@ The site navigation needs to be optimal to move to the preferred section of the 
 
 ### Business vision
 
-The purpose of this project is to give users peace of mind that help and advice or just something to socially do is out there. 
+The purpose of this project is to give users peace of mind that help and advice or just something to do socially, is out there. 
 The site also gives the users easy access to personal trainers and book specific classes for their needs.
 
 ## Scope
@@ -81,7 +81,7 @@ I want my users to feel they are not alone, that  there is help to get them to t
 
 ## Structure
 
-This project is a 3 page website. With the home page being things that can help keep a young people mentally well. An information page where users can find links to various other website where they will find help, chat forums and professional consultations. The third page is a contact form this is so users can reach out to the team and they will guide them to the correct help and resources.
+This project is a 6 page website. With a simple home page where the user can sign up for a free 7 day trial. A find us page whihc has a googles map, a meet the trainers page with a small intro to 3 trainers and a classes drop-down with 3 pages of Pilates, Spin and Circuits classes..
 
 ## Wireframes
 
@@ -99,8 +99,8 @@ My site has changed considerably from the intitial wireframe, as I had my initia
 ## Features
 
 This section contains some of the features this project contains:
-* The homepage will be the landing page showing a large hero image to draw people in, and a short paragraph showcasing how the website is of use to the user and an additional more info button.
-* Scrolling down to the paragraph about mental health and a couple of nice images, I've added a contact us button here in case the user want to make contact.
+* The homepage will be the landing page showing a large hero image to draw people in, an introduction to what the site is and a sihn up button for a 7 day free trial.
+* Scrolling down there are three sections with a short paragraoh on the benefits of Weigh lifting, Fitness in general and nutrition.
 * I have added a static image of some sun shining through trees, my thoughts were calming and hopeful in worrying times.
 * I have added 3 images of young 'happy' children and some bullet point of tips to keep children happy.
 * Further down is more information on the signs of mental health issues to look for and how to support.
