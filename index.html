@@ -22,7 +22,6 @@
 <script type="text/javascript">
    (function(){
       emailjs.init("user_TNnyXjEB5axLZq5T4WbRS");
-      emailjs.send(sign_up, sign_up);
    })();
 </script>
 </head>
@@ -66,7 +65,7 @@
           <p class="lead">Become the best version of yourself with help from our qualified trainers</p>
           <hr class="block-divider block-divider">
           <p class="lead">SIGN UP NOW FOR YOUR FREE 7-DAY TRIAL!</p>
-          <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+          <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" onsubmit="return sendMail(this);" method = "POST"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
@@ -79,20 +78,20 @@
                 <div class="modal-body mx-3">
                   <div class="md-form mb-5">
                     <i class="fas fa-user prefix grey-text"></i>
-                    <input type="text" id="orangeForm-name" class="form-control validate" placeholder="Full Name">
-                    <label data-error="wrong" data-success="right" for="orangeForm-name">Your name</label>
+                    <input type="text" id="name" class="form-control validate" placeholder="Full Name">
+                    <label data-error="wrong" data-success="right" for="name">Your name</label>
                   </div>
                   <div class="md-form mb-5">
                     <i class="fas fa-envelope prefix grey-text"></i>
-                    <input type="email" id="orangeForm-email" class="form-control validate" placeholder="Email">
-                    <label data-error="wrong" data-success="right" for="orangeForm-email">Your email</label>
+                    <input type="email" id="email" class="form-control validate" placeholder="Email">
+                    <label data-error="wrong" data-success="right" for="email">Your email</label>
                   </div>
 
                   <div class="md-form mb-4">
                     <i class="fas fa-lock prefix grey-text"></i>
-                    <input type="password" id="orangeForm-pass" class="form-control validate"
+                    <input type="password" id="pass" class="form-control validate"
                       placeholder="Create password">
-                    <label data-error="wrong" data-success="right" for="orangeForm-pass">Your password</label>
+                    <label data-error="wrong" data-success="right" for="pass">Your password</label>
                   </div>
 
                 </div>
@@ -167,8 +166,22 @@
       </button>
     </div>
   </section>
-
-
+  <section class="container-fluid ">
+    <div class="row bg-color-contact">
+        <div>
+            <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
+            <h5 class="uppercase text-center">Let's work together</h5>
+        </div>
+        <div class="center-form">
+            <form onsubmit="return sendMail(this);">
+                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+                <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+            </form>
+        </div>
+    </div>
+</section>
   <footer class="page-footer font-small blue pt-4">
     <!-- Footer Links -->
     <div class="container-fluid text-center">
@@ -191,6 +204,7 @@
       </ul>
 
     </div>
+    <script src="js/send.js"></script>
     <script src="https://kit.fontawesome.com/f30e97e33d.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
