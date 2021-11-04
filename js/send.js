@@ -1,8 +1,8 @@
-
-function sendMail(signupForm) {
+  function sendMail(signupForm) {
     emailjs.send("sign_up", "sign_up", {
         "from_name": signupForm.name.value,
         "from_email": signupForm.emailaddress.value,
+        "reply_to": "{{from_email}}",
     })
     .then(
         function(response) {
