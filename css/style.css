@@ -83,6 +83,11 @@ body {
     justify-content: center;
 }
 
+.welcome {
+    background-color: #fafafa;
+    text-align: center;
+}
+
 .container-fluid {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -156,7 +161,7 @@ body {
     color: #DDA15E;
     }
 
-.info h2 {
+h2 {
     text-align: center;
     color: #283618;
     margin: 22px;
