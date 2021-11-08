@@ -36,8 +36,8 @@ body {
     position: relative;
 }
 .map-container {
-    height: 60vh;
-    background: url('../images/map.jpg') no-repeat center center;
+    height: 40vh;
+    background: url('../images/mick-haupt-tJefy_Vu7Po-unsplash.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
