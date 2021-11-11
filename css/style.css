@@ -191,6 +191,17 @@ h1 {
 
 div#map {min-height: 360px;}
 
+/*Trainers*/
+
+.bio h1 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.bio p {
+    text-align: justify;
+    padding: 10px;
+}
+
  /*footer*/
 
 
