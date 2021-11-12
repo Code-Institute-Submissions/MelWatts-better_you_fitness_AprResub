@@ -99,14 +99,13 @@ My site has changed considerably from the intitial wireframe, as I had my initia
 ## Features
 
 This section contains some of the features this project contains:
-* The homepage will be the landing page showing a large hero image to draw people in, an introduction to what the site is and a sihn up button for a 7 day free trial.
+* The homepage will be the landing page showing a large hero image to draw people in, an introduction to what the site is and a sign up button for a 7 day free trial.
+* Scrolling down to a short paragraph, the an image carosel
 * Scrolling down there are three sections with a short paragraoh on the benefits of Weigh lifting, Fitness in general and nutrition.
-* I have added a static image of some sun shining through trees, my thoughts were calming and hopeful in worrying times.
-* I have added 3 images of young 'happy' children and some bullet point of tips to keep children happy.
-* Further down is more information on the signs of mental health issues to look for and how to support.
-* Then a couple of meditation videos and wellbeing tips to watch so assist the user and their child.
-* Some helpful links to other sites including an online chat room for like minded people, to book therapy sessions and general help.
-* Ending the website with a simple contact form and links to our social media platforms to keep in contact or follow us.
+* Followed by a footer. 
+* There are 5 additional pages a 'Find Us' page with a map and contact details
+* A meet the trainers page with 3 sections and bio's of 3 personal trainers
+* A drop down menu of 3 addditional pages of classes, with a small description and a timetable of tehse clasess
 
 
 ## Technologies
@@ -116,6 +115,9 @@ This project was build using the following technologies:
 ### Languages
 * HTML5
 * CSS3
+* Javascript
+* Python
+* Django
 
 ### Libraries and online resources:
 * Google Chrome Dev Tools: for testing purposes.
@@ -126,12 +128,17 @@ This project was build using the following technologies:
 * Responsinator to check my website on all devices. [Responsinator](https://www.responsinator.com/).
 * Responsive web design columns and grids to help with css columns media query [Responsive Web Design Grid](https://www.w3schools.com/css/css_rwd_intro.asp).
 * README template from code institute fellow student [README.md template](https://github.com/ThijsTerporten/Climbing-Traveller/blob/master/README.md).
+* Adobe Photoshop for editing my Photos
+* Unsplash for the free images
+* Adobe InDesign for my Wireframe
+* Bootstrap Library
+* Geek for Geeks for log in Django help
 
 ### Testing
 
 ## Testing Plan
 
-I started this project, based on a desktop, once I was happy with the look I worked on my media query starting with mobile and working up through the various break off points of various screen sizes. This proved to be a mistake, as I was writing so much css for each screen size, my css document started to get overwhelming. After talks with my mentor we decided to go down the columns route as it proved much easier and better for all screen sizes. 
+Starting this project I know what my target audience would like to see on a website with fitness as its topic (I'm a fitness freak as well). I took into consideration on what devices my users would like to see the website on. For testing I designed the website mobile first, with extensive testing using Chrome DevTools for all Iphone's. Using DevTools I continued testing the website using settings for the Ipad and a 15.6 inch laptop screen. For large screens I used a 24 inch monitor. I wanted my page to be seen in a horizantel manner on larger screens a vertical manner for small screens, and on medium sized screens I am aiming to be in the middle of these two.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -139,27 +146,24 @@ I started this project, based on a desktop, once I was happy with the look I wor
 
 As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-* Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "More Information" Call to action button.
-* The main points are made immediately with the navigation bar and call to action buttons
-* The user has three options, click the call to action buttons, scroll through the information, tips and help or click on the navigation bar to go directly to the place they need. b
+* Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Sign up for a free 7 day trial" Call to action button.
+* The main points are made immediately with the navigation bar and call to action button.
+* The user has three options, click the call to action buttons, scroll through the information and tips or click on the navigation bar to go directly to the place they need.
 * As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-* The site has been designed to be fluid and informative, easy to navigate. Each link describes what section teh visitor will end up on.
-* Throughout the site there are call to actions, at the bottom there is a simple easy to fill out contact form.
+* The site has been designed to be fluid and informative, easy to navigate. Each link describes what section the visitor will end up on.
 * As a First Time Visitor, I want them to locate our social media links to see our following on social media to determine how trusted and known we are.
 
-* Once the new visitor has read the gone through teh site, they will notice helpful links to on-line forums and professional therapists.
-* The user can also scroll to the bottom of any page on the site to locate teh contact us form and social media links in the footer.
-* At the bottom of the sit on the Contact Us section, the user can see, that alternatively they can contact the organisation on social media which highlights the links to them.
+* Once the new visitor has read through the site, feel confident they can contact us using teh call to action modal on the home page.
+* The user can also scroll to the bottom of any page on the site to locate the social media links in the footer.
 
 ## Returning Visitor Goals
 
-As a Returning Visitor, I want the visitor to find the where they were previously and feel reasured we are here to help.
-
+As a Returning Visitor, I want the visitor to find the where they were previously and feel confident to make teh step to improve their fitness or weight loss goals.
 
 As a Returning Visitor, I want them to find the best way to get in contact with us with any questions they may have.
 
-* The navigation bar clearly highlights the "Contact Us" Page.
+* The home page clearly highlights the "Sign up" Modal.
 
 * Here they can fill out the form on the page or alternatively they can message the organisation on social media.
 * The footer contains links to the organisations Facebook, Twitter and Instagram page.
@@ -170,24 +174,23 @@ As a Returning Visitor, I want them to find the best way to get in contact with 
 
 ## Frequent User Goals
 
-As a Frequent User, I want to check to see if there are any newly added help or advice.
+As a Frequent User, I want to check to see if there are any newly added help, advice or new trainers.
 
-* The user would already be comfortable with the website layout and can easily click the call to action buttons or teh navigation bar.
-* As a Frequent User, I want them to check to see if there are any new infomation, tips or help.
+* The user would already be comfortable with the website layout and can easily click the call to action buttons or the navigation bar.
+* As a Frequent User, I want them to check to see if there are any new infomation, tips, help or trainers.
 * The user would already be comfortable with the website layout and can easily click the links to external sites.
 * As a Frequent User, I want them to follow us on social media.
-* There is a "Submit" button to the bottom of the input field which is located close to the field and can easily be distinguished.
 
 ### Further Testing
 
 * The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+* The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhone X.
 * A large amount of testing was done to ensure that all sections were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Implementation
 
-As this is the first website that I created on my own I had no experience debugging on my own. Testing was mainly done using DevTools in google chrome. 
+Testing was mainly done using DevTools in google chrome. 
 Starting mobile first then working my way up to bigger screen sizes. 
 Whenever an element wasn't located where I wanted it to be I would use the `element.style` box in DevTools to find a solution. 
 
@@ -287,7 +290,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ## Content
 
-All content in this project are taken from researching the website for helpful links and tips for Children with mental health issues.
+All content in this project are taken from researching the website.
 
 ## Media 
 
