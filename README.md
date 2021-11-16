@@ -85,11 +85,11 @@ This project is a 6 page website. With a simple home page where the user can sig
 
 ## Wireframes
 
-The original wireframes can be found [here](assets/images/wireframe.JPG)
+The original wireframes can be found [here](images/wireframe.JPG)
 
-The Tablet wireframe can be found [here](assets/images/tablet-wireframe.JPG)
+The Tablet wireframe can be found [here](images/tablet_wireframe.JPG)
 
-The Mobile wireframe can be found [here](assets/images/mobile-wireframe.JPG)
+The Mobile wireframe can be found [here](images/mobile_wireframe.JPG)
 
 ### Changes to wireframes
 
@@ -133,6 +133,7 @@ This project was build using the following technologies:
 * Adobe InDesign for my Wireframe
 * Bootstrap Library
 * Geek for Geeks for log in Django help
+* EmailJS
 
 ### Testing
 

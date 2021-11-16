@@ -36,9 +36,8 @@
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <button>
-              Log in / Register
-        </button>
+        <button type="button" class="btn btn-light">Login</button>
+        <button type="button" class="btn btn-light">Register</button>
               <li class="nav-item list-unstyled">
                 <a class="nav-link active" href="index.html">Home</a>
               </li>
@@ -60,8 +59,6 @@
       </div>
   </nav>
 </header>
-
-
   <div class="container-fluid callout-container">
     <div class="row">
       <div class="col-12">
@@ -70,11 +67,9 @@
           <p class="lead">Become the best version of yourself with help from our qualified trainers</p>
           <hr class="block-divider block-divider">
           <p class="lead">SIGN UP NOW FOR YOUR FREE 7-DAY TRIAL!</p>
-
-        
           <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
             aria-hidden="true">
-            <form onsubmit="return sendMail(this);" method = "POST">
+            <form onsubmit="return sendMail(this);">
               <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header text-center">
@@ -83,26 +78,21 @@
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
-
                     <div class="modal-body mx-3">
-
                       <div class="md-form mb-5">
                         <i class="fas fa-user prefix grey-text"></i>
                         <label data-error="wrong" data-success="right" for="name">Your name</label>
                         <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                       </div>
-
                       <div class="md-form mb-5">
                         <i class="fas fa-envelope prefix grey-text"></i>
                         <label data-error="wrong" data-success="right" for="email">Your email</label>
                         <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                       </div>
-
                       <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1" required>Sign me up</label>
                       </div>
-
                       <div class="md-form mb-4">
                         <p>We will be in contact to arrange the start date of your 7 days free trial! </p>
                           <button name="signup" type="submit" class="btn btn-secondary center-block form-control" id="signmeup" required>Sign me up!</button>
@@ -111,8 +101,7 @@
                   </div>
               </div>
             </form>
-          </div>
-        
+          </div>       
           <div class="text-center">
             <a href="" class="btn btn-lg btn--cta btn-light" data-toggle="modal" data-target="#modalRegisterForm">SIGN
               UP</a>
@@ -121,7 +110,6 @@
       </div>
     </div>
   </div>
-
   <section class="container info welcome">
     <div>
       <div class="row">
