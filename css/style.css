@@ -169,6 +169,14 @@ h2 {
 
 /*button*/
 
+.login_reg  {
+    display:inline-block
+}
+
+.btn {
+    height: fit-content;
+}
+
 .btn:hover {
     background-color: #DDA15E;
 }
