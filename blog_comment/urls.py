@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from comments.views import get_comment
+from comments.views import get_comments
 
 urlpatterns = [
     path('admin/', admin.site.urls), 
-    path('', get_comment, name='get_comment')
+    path('', get_comments, name='get_comments')
 ]
