@@ -13,9 +13,9 @@
             <div class="d-none d-md-block col-md-6 masthead-image">
                 <!-- The featured image URL goes in the src attribute -->
                 {% if "placeholder" in post.featured_image.url %}
-                <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" width="100%">
-                {% else %}
                 <img src="" width="100%">
+                {% else %}
+                <img src="images/hero2.jpg" width="100%">
                 {% endif %}
             </div>
         </div>
@@ -52,7 +52,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8 card mb-4  mt-3 ">
+        <div class="col card mb-4  mt-3 ">
             <h3>Comments:</h3>
             <div class="card-body">
                 <!-- We want a for loop inside the tags to iterate through each comment in comments -->
@@ -73,7 +73,7 @@
                 {% %}
             </div>
         </div>
-        <div class="col-md-4 card mb-4  mt-3 ">
+        <div class="col-md-8 card mb-4  mt-3 ">
             <div class="card-body">
                 <!-- For later -->
             </div>
