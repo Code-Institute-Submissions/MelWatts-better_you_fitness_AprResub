@@ -82,4 +82,8 @@ class Homepage(View):
 
     def get(self, request, *args, **kwargs):
         return render(request, "homepage.html")
-        
+
+class Findus(View):
+
+    def get(self, request, *args, **kwargs):
+        return render(request, "findus.html")
