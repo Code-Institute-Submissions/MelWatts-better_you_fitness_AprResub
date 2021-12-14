@@ -33,7 +33,7 @@ class PostDetail(View):
                 "comment_form": CommentForm()
             },
         )
-   
+
     def post(self, request, slug, *args, **kwargs):
 
         queryset = Post.objects.filter(status=1)
@@ -83,7 +83,32 @@ class Homepage(View):
     def get(self, request, *args, **kwargs):
         return render(request, "homepage.html")
 
+
 class Findus(View):
 
     def get(self, request, *args, **kwargs):
         return render(request, "findus.html")
+
+
+class Trainers(View):
+
+    def get(self, request, *args, **kwargs):
+        return render(request, "trainers.html")
+
+
+class Pilates(View):
+
+    def get(self, request, *args, **kwargs):
+        return render(request, "pilates.html")
+
+
+class Spin(View):
+
+    def get(self, request, *args, **kwargs):
+        return render(request, "spin.html")
+
+
+class Circuits(View):
+
+    def get(self, request, *args, **kwargs):
+        return render(request, "circuits.html")
