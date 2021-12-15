@@ -55,32 +55,26 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'account_login' %}">Login</a>
                     </li>
-                    {% endif %}
-                </ul>
-                <span class="navbar-text text-muted">
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{% url 'findus' %}">Find us</a>
-                        </li>
-                        <li class="nav-item list-unstyled">
-                          <a class="nav-link" href="{% url 'trainers' %}">Meet the trainers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Blog</a>
-                        </li>
-                        <li class="nav-item dropdown list-unstyled">
-                          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{% url 'findus' %}">Find us</a>
+                    </li>
+                    <li class="nav-item list-unstyled">
+                        <a class="nav-link" href="{% url 'trainers' %}">Meet the trainers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{% url 'home' %}">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown list-unstyled">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                             aria-expanded="false">Classes</a>
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="{% url 'pilates' %}">Pilates</a></li>
+                        <ul class="dropdown-menu">
+                             <li><a class="dropdown-item" href="{% url 'pilates' %}">Pilates</a></li>
                             <li><a class="dropdown-item" href="{% url 'spin' %}">Spin</a></li>
                             <li><a class="dropdown-item" href="{% url 'circuits' %}">Circuits</a></li>
                         </li>
                         </ul>
-                    </div>
-                </span>
             </div>
-        </div>
+        {% endif %}
     </nav>
     <div class="container">
         <div class="row">
@@ -128,6 +122,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVtuPoUye4BAmEca2gLEJRlqfDScyGs3U&callback=initMap"></script>
+    <script src="static/js/maps.js"></script>>
 </body>
 
 </html>
