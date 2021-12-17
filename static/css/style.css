@@ -94,7 +94,6 @@ body {
     margin-bottom: 20px;
 }
 
-
 /* Jumbotron */
 
 .jumbotron {
@@ -129,10 +128,21 @@ body {
     background-color: #fff;
 }
 
-h2 {
+h3 {
+    font-family: 'Permanent Marker', cursive;
     text-align: center;
     color: #283618;
-    margin: 22px;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
 }
 
 /*button*/
@@ -155,11 +165,8 @@ img{
 
 p {
      width: inherit;
- }
-
-h1 {
-     text-align: center;
- }
+     color: #fff;
+ }  
 
 div#map {min-height: 360px;}
 

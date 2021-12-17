@@ -1,3 +1,5 @@
+console.log("Hello world!"); 
+  
   function sendMail(signupForm) {
     emailjs.send("sign_up", "sign_up", {
         "from_name": signupForm.name.value,

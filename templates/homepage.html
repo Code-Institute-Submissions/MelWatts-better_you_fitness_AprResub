@@ -2,6 +2,15 @@
 
 {% block content %}
 
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("user_TNnyXjEB5axLZq5T4WbRS");
+})();
+</script>
+
 <div class="container-fluid callout-container">
     <div class="row">
       <div class="col-12">
@@ -37,7 +46,7 @@
                         <label class="form-check-label" for="exampleCheck1" required>Sign me up</label>
                       </div>
                       <div class="md-form mb-4">
-                        <p>We will be in contact to arrange the start date of your 7 days free trial! </p>
+                        <h4p>We will be in contact to arrange the start date of your 7 days free trial! </h4>
                           <button name="signup" type="submit" class="btn btn-secondary center-block form-control" id="signmeup" required>Sign me up!</button><br>
                       <div>
                         <button type="button" class="btn btn-secondary center-block form-control" data-dismiss="modal">Close</button>
@@ -56,14 +65,14 @@
       </div>
     </div>
   </div>
-  <section class="container info welcome">
+  <section class="container-fluid info welcome">
     <div>
       <div class="row">
         <h1>Welcome to Better you fitness, Oxfords number one Gym and Fitness Center</h1><br>
-        <h2>No overcrowding, no hassle, no judgements...</h2><br>
-   <p>Just affordable prices, great workouts, fantastic facilities
+        <h3>No overcrowding, no hassle, no judgements...</h3><br>
+   <h4>Just affordable prices, great workouts, fantastic facilities
     and a place where you're always made to feel
-    100% Welcome.</p><br>
+    100% Welcome.</h4><br>
       </div>
     </div>
   </section>
@@ -119,7 +128,7 @@
       </div>
     </div>
   </section>
-    <script src="static/js/send.js"></script>
+    <script src="js/send.js"></script>
     <script src="https://kit.fontawesome.com/f30e97e33d.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
