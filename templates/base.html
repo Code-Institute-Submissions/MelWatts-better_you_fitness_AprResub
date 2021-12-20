@@ -18,6 +18,17 @@
     </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js">
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVtuPoUye4BAmEca2gLEJRlqfDScyGs3U&callback=initMap"></script>
+    <script src="{% static "js/maps.js" %}"></script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init("user_TNnyXjEB5axLZq5T4WbRS");
+    })();
+    </script>
+    <script src="{% static "js/send.js" %}"></script>
 </head>
 
 <body class="d-flex flex-column h-100 main-bg">
@@ -89,7 +100,7 @@
 
     <!-- Footer -->
     <footer class="footer mt-auto py-3 dark-bg">
-        <p class="m-0 text-center text-white">Made by Mel Watts Developer for Better you fitness</p>
+        <p class="m-0 text-center text-white">Made by Mel @ Better you fitenss</p>
         <p class="m-0 text-center text-white">Follow us: <i class="fab fa-facebook-square ms-3"></i>
             <i class="fab fa-twitter-square ms-3"></i>
             <i class="fab fa-instagram-square ms-3"></i>
@@ -112,8 +123,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVtuPoUye4BAmEca2gLEJRlqfDScyGs3U&callback=initMap"></script>
-    <link rel="text/javascript" href="{% static '/js/maps.js' %}">
 </body>
 
 </html>

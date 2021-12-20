@@ -138,6 +138,7 @@ h2 {
     font-family: 'Permanent Marker', cursive;
     text-align: center;
     color: #fff;
+    padding: 20px;
 }
 
 h1 {
@@ -344,4 +345,27 @@ div#map {min-height: 360px;}
     color: #DDA15E;
     background: transparent;
     border: none;
+}
+
+.social-media {
+    text-align: center;
+    margin: auto;
+}
+
+.social-media > li {
+    display:inline;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.social-media i {
+    margin: 1%;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.social-media ul {
+    text-align: center;
+    margin: auto;
 }
