@@ -42,6 +42,7 @@ User stories
 * As a first time visitor, my aim is to be able to find what I am looking for very easily with an simple navigation through the site.
 * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 * As a First Time Visitor, I want to be able to easily navigate throughout the site to find contact forms and to sign up for a free trial.
+* As a First Time Visitor, I want to be able to easily navigate throughout the site to register a new account so I can comment on the blog posts.
 
 ## Returning visitor goals:
 
@@ -49,6 +50,7 @@ User stories
 * As a returning visitor, I want my site to help reasure people they are in the correct place for the help or advice they need.
 * As a Returning Visitor, I want visitors to find the best way to get in contact with the organisation with any questions they may have.
 * As a Returning Visitor, I want visitors to feel reasurred if they feel nervous about contacting us to discuss thier weight concerns.
+* As a returning visitor, I want to check if there has been any more blogs to rad and comments.
 
 
 The end goal of the project is to help people to reach their weight and fitness goal with confidence .
@@ -62,6 +64,7 @@ The end goal of the project is to help people to reach their weight and fitness 
 * As a user I want to find out some tips to keep to maintain my weight and fitness levels.
 * As a user I would like to feel I am not alone and there is help for me.
 * As a user I would like to be educated in various nutrtion benefits to help with my personal goals.
+* As a user I would like to be register for my own account and to keep up with blogs posst.
 
 ## Strategy
 
@@ -85,11 +88,11 @@ This project is a 6 page website. With a simple home page where the user can sig
 
 ## Wireframes
 
-The original wireframes can be found [here](images/wireframe.JPG)
+The original wireframes can be found [here](https://res.cloudinary.com/dw11tbftk/image/upload/v1640098783/wireframe_ncayoh.jpg)
 
-The Tablet wireframe can be found [here](images/tablet_wireframe.JPG)
+The Tablet wireframe can be found [here](https://res.cloudinary.com/dw11tbftk/image/upload/v1639407413/tablet_wireframe_cp5hhw.jpg)
 
-The Mobile wireframe can be found [here](images/mobile_wireframe.JPG)
+The Mobile wireframe can be found [here](https://res.cloudinary.com/dw11tbftk/image/upload/v1639407411/mobile_wireframe_gg4lhu.jpg)
 
 ### Changes to wireframes
 

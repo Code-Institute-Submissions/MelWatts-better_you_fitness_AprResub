@@ -1,6 +1,9 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block content %}
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVtuPoUye4BAmEca2gLEJRlqfDScyGs3U&callback=initMap"></script>
+<script src="{% static "js/maps.js" %}"></script>
 
 <div class="container-fluid">
     <div class="row">
