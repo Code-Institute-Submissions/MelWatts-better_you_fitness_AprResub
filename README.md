@@ -215,20 +215,24 @@ Testing is done in the following way:
 4. Check all links in the footer whether they react as intended by opening in a new tab (for links section in footer). 
 5. Run through all of these steps for each different screen size.
 6. Use HTML and CSS validators from W3C schools to find mistakes in code.
+7. Use PEP8 to validate my python code.
+8. USe JShint to validate my JavaScript.
 
 
 ### Results
 
 Once I had a general idea on how to run testing I followed all steps for each of my pages which gave me the following results:
 
-* 2 class to one div, this was rectified
-* Tried having control="" on my iframe.
-* Tried having muted on my iframe. 
-* Tried having loop on my iframe.
-* I have 3 warnings left to rectify, all are 'Section lacks heading'.
+* JS - Map [https://jshint.com/] - results [https://res.cloudinary.com/dw11tbftk/image/upload/v1640186979/jshint_map_i3cih9.jpg]
+ * Undeclared 'google'
+ * Undeclared 'document'
 
-
-* HTML-validator results: [index.html](assets/images/html-results/index-results.png)
+* JS - Email Send [https://jshint.com/] - results [https://res.cloudinary.com/dw11tbftk/image/upload/v1640186979/jshint_send_pkcevn.jpg]
+  * Undeclared 'emailjs'
+  * Expected property 'from_email' to be ordered before property 'from_email'
+  * Undeclared 'console'
+  * Undeclared 'console'
+  * I will further investigate these errors.
 
 * CSS-validator results: [https://res.cloudinary.com/dw11tbftk/image/upload/v1640185442/css_results_ajogzr.jpg]
 

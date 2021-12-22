@@ -381,20 +381,20 @@ p.style {
     margin: auto;
 }
 
-.social-media > li {
-    display:inline;
-    position: relative;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
+footer {
+    height: 150px;
 }
-
-.social-media i {
-    margin: 1%;
-    padding: 10px;
-    color: #fff;
-}
-
-.social-media ul {
+.social-networks {
     text-align: center;
-    margin: auto;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 140%;
+    margin: 1%;
+    padding: 20px;
+    color: #fff;
 }
