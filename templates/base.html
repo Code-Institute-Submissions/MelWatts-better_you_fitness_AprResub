@@ -42,27 +42,29 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item list-unstyled">
-                        <a class="nav-link" href="{%  url 'homepage' %}">Home</a>
+                        <a class="nav-link active" href="{%  url 'homepage' %}">Home</a>
                       </li>
-                    <li class="nav-item">
+                    <li class="nav-item list-unstyled">
                         <a class="nav-link active" href="{% url 'findus' %}">Find us</a>
                     </li>
                     <li class="nav-item list-unstyled">
-                        <a class="nav-link" href="{% url 'trainers' %}">Meet the trainers</a>
+                        <a class="nav-link active" href="{% url 'trainers' %}">Meet the trainers</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item list-unstyled">
                         <a class="nav-link active" href="{% url 'home' %}">Blog</a>
                     </li>
                     <li class="nav-item dropdown list-unstyled">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button"
                             aria-expanded="false">Classes</a>
                         <ul class="dropdown-menu">
-                             <li><a class="dropdown-item" href="{% url 'pilates' %}">Pilates</a></li>
+                            <li><a class="dropdown-item" href="{% url 'pilates' %}">Pilates</a></li>
                             <li><a class="dropdown-item" href="{% url 'spin' %}">Spin</a></li>
                             <li><a class="dropdown-item" href="{% url 'circuits' %}">Circuits</a></li>
                         </li>
                         </ul>
+                    </ul>
                     {% if user.is_authenticated %}
+                    <ul>
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'account_logout' %}">Logout</a>
                     </li>
@@ -73,6 +75,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'account_login' %}">Login</a>
                     </li>
+                </ul>
             </div>
         {% endif %}
     </nav>

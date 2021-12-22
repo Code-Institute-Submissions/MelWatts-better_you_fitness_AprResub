@@ -24,6 +24,19 @@ body {
     position: relative;
 }
 
+.post-container {
+    height: 40vh;
+    background: url('https://res.cloudinary.com/dw11tbftk/image/upload/v1640102647/blog_uttnl1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #DDA15E;
+}
+
 .trainer-container {
     height: 60vh;
     background: url('https://res.cloudinary.com/dw11tbftk/image/upload/v1639407411/hero2_kesktl.jpg') no-repeat center center;
@@ -191,14 +204,22 @@ div#map {min-height: 360px;}
 
 .navbar .navbar-toggler {
     border: 0;
+    z-index: 9999;
 }
 
 .nav-link {
     color: #fff;
+    display: inline;
+    text-decoration: none;
 }
 
 .nav-link:hover {
     color: #DDA15E;
+}
+
+.list-unstyled {
+    text-decoration: none;
+    z-index: 9999;
 }
 
 

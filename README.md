@@ -76,7 +76,8 @@ The site navigation needs to be optimal to move to the preferred section of the 
 ### Business vision
 
 The purpose of this project is to give users peace of mind that help and advice or just something to do socially, is out there. 
-The site also gives the users easy access to personal trainers and book specific classes for their needs.
+The site also gives the users easy access to personal trainers and view specific classes for their needs. Have a option to register for an account, with further login / log out functionality. 
+The ability to read, like and leave a comment on recent blog posts.
 
 ## Scope
 
@@ -84,7 +85,7 @@ I want my users to feel they are not alone, that  there is help to get them to t
 
 ## Structure
 
-This project is a 6 page website. With a simple home page where the user can sign up for a free 7 day trial. A find us page whihc has a googles map, a meet the trainers page with a small intro to 3 trainers and a classes drop-down with 3 pages of Pilates, Spin and Circuits classes..
+This project is a 9 page website. With a simple home page where the user can sign up for a free 7 day trial. A find us page whihc has a googles map, a meet the trainers page with a small intro to 3 trainers and a classes drop-down with 3 pages of Pilates, Spin and Circuits classes, plus a blog page to read, like and leave a comment on the blog. A register for an account page with a subsiquence login / log out function.
 
 ## Wireframes
 
@@ -103,12 +104,15 @@ My site has changed considerably from the intitial wireframe, as I had my initia
 
 This section contains some of the features this project contains:
 * The homepage will be the landing page showing a large hero image to draw people in, an introduction to what the site is and a sign up button for a 7 day free trial.
-* Scrolling down to a short paragraph, the an image carosel
+* Scrolling down to a short paragraph, then an image carosel
 * Scrolling down there are three sections with a short paragraoh on the benefits of Weigh lifting, Fitness in general and nutrition.
 * Followed by a footer. 
-* There are 5 additional pages a 'Find Us' page with a map and contact details
-* A meet the trainers page with 3 sections and bio's of 3 personal trainers
-* A drop down menu of 3 addditional pages of classes, with a small description and a timetable of tehse clasess
+* There are 8 additional pages a 'Find Us' page with a map and contact details
+* A meet the trainers page with 3 sections and bio's of 3 personal trainers.
+* A blogs page where the user (if regitered) can like, or leave a comment on each blog.
+* A drop down menu of 3 addditional pages of classes, with a small description.
+* A Register for an account page where the user will submit their personal details to open an account.
+* Once resitered, teh user can then have the option to log in in future, or log out.
 
 
 ## Technologies
@@ -137,12 +141,13 @@ This project was build using the following technologies:
 * Bootstrap Library
 * Geek for Geeks for log in Django help
 * EmailJS
+* Cloudinary for image storage.
 
 ### Testing
 
 ## Testing Plan
 
-Starting this project I know what my target audience would like to see on a website with fitness as its topic (I'm a fitness freak as well). I took into consideration on what devices my users would like to see the website on. For testing I designed the website mobile first, with extensive testing using Chrome DevTools for all Iphone's. Using DevTools I continued testing the website using settings for the Ipad and a 15.6 inch laptop screen. For large screens I used a 24 inch monitor. I wanted my page to be seen in a horizantel manner on larger screens a vertical manner for small screens, and on medium sized screens I am aiming to be in the middle of these two.
+Starting this project I know what my target audience would like to see on a website with fitness as its topic (I'm a fitness freak as well). I took into consideration on what devices my users would like to see the website on. For testing I designed the website mobile first, with extensive testing using Chrome DevTools for all Iphone's. Using DevTools I continued testing the website using settings for the Ipad and a 15.6 inch laptop screen. For large screens I used a 24 inch monitor. I wanted my page to be seen in a horizontal manner on larger screens a vertical manner for small screens, and on medium sized screens I am aiming to be in the middle of these two.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -150,7 +155,8 @@ Starting this project I know what my target audience would like to see on a webs
 
 As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-* Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Sign up for a free 7 day trial" Call to action button.
+* Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a
+  "Sign up for a free 7 day trial" Call to action button.
 * The main points are made immediately with the navigation bar and call to action button.
 * The user has three options, click the call to action buttons, scroll through the information and tips or click on the navigation bar to go directly to the place they need.
 * As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
