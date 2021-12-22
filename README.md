@@ -197,6 +197,7 @@ As a Frequent User, I want to check to see if there are any newly added help, ad
 * The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhone X.
 * A large amount of testing was done to ensure that all sections were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+* PEP8 code check for Python
 
 ### Implementation
 
@@ -229,7 +230,10 @@ Once I had a general idea on how to run testing I followed all steps for each of
 
 * HTML-validator results: [index.html](assets/images/html-results/index-results.png)
 
-* CSS-validator results: [style.css](assets/images/css-validator.JPG)
+* CSS-validator results: [https://res.cloudinary.com/dw11tbftk/image/upload/v1640185442/css_results_ajogzr.jpg]
+
+* PEP8 results: [https://res.cloudinary.com/dw11tbftk/image/upload/v1640180546/pep8_results_xmkl2g.jpg]
+
 
 
 

@@ -229,7 +229,9 @@ div#map {min-height: 360px;}
 
 .bio p {
     text-align: justify;
+    font-family: 'Montserrat', sans-serif;
     padding: 10px;
+    color: #fff;
 }
 
 
@@ -253,7 +255,7 @@ div#map {min-height: 360px;}
 }
 
 .dark-bg {
-    background-color: #445261;
+    background-color: #283618;
 }
 
 .card {
@@ -330,7 +332,13 @@ div#map {min-height: 360px;}
 
 .post-subtitle {
     margin-left: 5%;
-    color: lightgray;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p.style {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
 }
 
 .btn-signup {
@@ -356,7 +364,7 @@ div#map {min-height: 360px;}
 }
 
 .btn-like {
-    color: #283618;
+    color: #fff;
     border: none;
     background: transparent;
 }
@@ -383,7 +391,7 @@ div#map {min-height: 360px;}
 .social-media i {
     margin: 1%;
     padding: 10px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .social-media ul {
