@@ -5,9 +5,9 @@
 This project Better you fitness, is a webiste promoting a gym, and to get the user to sign in to a members only logon, browse classes and book an induction with one of the trainers.
 
 ## Showcase
-![Showcase-screenshot](assets/images/home_page_desktop.JPG)
+![Showcase-screenshot](media/homepage.JPG)
 
-A deployed version of my website can be found [here.] (https://melwatts.github.io/LittleMinds/)
+A deployed version of my website can be found [here.] ()
 
 ## navigation
 
@@ -112,7 +112,7 @@ This section contains some of the features this project contains:
 * A blogs page where the user (if regitered) can like, or leave a comment on each blog.
 * A drop down menu of 3 addditional pages of classes, with a small description.
 * A Register for an account page where the user will submit their personal details to open an account.
-* Once resitered, teh user can then have the option to log in in future, or log out.
+* Once registered, the user can then have the option to log in in future, or log out.
 
 
 ## Technologies
@@ -142,6 +142,7 @@ This project was build using the following technologies:
 * Geek for Geeks for log in Django help
 * EmailJS
 * Cloudinary for image storage.
+* Heroku
 
 ### Testing
 
@@ -155,8 +156,7 @@ Starting this project I know what my target audience would like to see on a webs
 
 As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-* Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a
-  "Sign up for a free 7 day trial" Call to action button.
+* Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Sign up for a free 7 day trial" Call to action button.
 * The main points are made immediately with the navigation bar and call to action button.
 * The user has three options, click the call to action buttons, scroll through the information and tips or click on the navigation bar to go directly to the place they need.
 * As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
@@ -169,9 +169,9 @@ As a First Time Visitor, I want to easily understand the main purpose of the sit
 
 ## Returning Visitor Goals
 
-As a Returning Visitor, I want the visitor to find the where they were previously and feel confident to make teh step to improve their fitness or weight loss goals.
+* As a Returning Visitor, I want the visitor to find the where they were previously and feel confident to make the step to improve their fitness or weight loss goals.
 
-As a Returning Visitor, I want them to find the best way to get in contact with us with any questions they may have.
+* As a Returning Visitor, I want them to find the best way to get in contact with us with any questions they may have.
 
 * The home page clearly highlights the "Sign up" Modal.
 
@@ -216,7 +216,9 @@ Testing is done in the following way:
 5. Run through all of these steps for each different screen size.
 6. Use HTML and CSS validators from W3C schools to find mistakes in code.
 7. Use PEP8 to validate my python code.
-8. USe JShint to validate my JavaScript.
+8. Use JShint to validate my JavaScript.
+9. Use TestCase to test my Django
+10. Jest to test my Javascript functions.
 
 
 ### Results
@@ -238,31 +240,34 @@ Once I had a general idea on how to run testing I followed all steps for each of
 
 * PEP8 results: [https://res.cloudinary.com/dw11tbftk/image/upload/v1640180546/pep8_results_xmkl2g.jpg]
 
+* HTML results: [https://res.cloudinary.com/dw11tbftk/image/upload/v1640191281/html_results_cmshpo.jpg]
+  * I will investigate further to why these errors have shown.
 
+* TestCase Django - I tried to follow the wakthrough to test my Django project, However I have ran out of time to conclude this process. I will investigate this further at a later date.
 
+* Jest - I tried to follow the wakthrough to test my Django project, However I have ran out of time to conclude this process. I will investigate this further at a later date.
 
 ### Bugs
 
-#### Media query
+#### Django 
 
-After writing my media query for a mobile, I noticed that, that was overwriting my desktop version. After a lot of meetings with my mentor and lots of chat and help from my fellow students on Slack, it was decided that all of my website was not set in columns or grids, once this was done everything was much clearer.
+I wasn't very confident in my Django project, therfore having to delete it all and starting again, after lots of tutor help and my fellow coders on slack I managed to successfully install my project for a blog and log in log out funtion. Also following the, 'I think therefor I blog', walkthrough helped massively.
 
-#### Images
+#### Intergrating Google Maps and Email JS into Django 
 
-Early on I was having a hard time getting the images to display properly. They looked good on a desktop version but wasn't scaling properly for tablet or mobile. This was due to using px height and width instead of %.
-
+I had successfully install a Googele Map API into my project and an Sign up for a free trial email via EmailJS, however once I install my Django blog project none of my original functions worked, after some tutor advice and searching on slack and geek for geeks. I successfully managed to intergrate my API into Django project.
 
 
 ## Deployment
 
-This project is deployed using gitpod in combination with github pages.
-I used gitpod to write all code and seeing it is linked with github it was easy to use the terminal to commit, unfortunately in my haste I have committed a few spelling errors of which I did a quick google search to see if I could rectify this, I couldn't see a way.
+This project is deployed using gitpod in combination with github pages and Heroku.
+I used gitpod to write all code and seeing it is linked with github it was easy to use the terminal to commit.
 
 ### GitHub Pages
 
-## The project was deployed to GitHub Pages using the following steps...
+## The project was deployed to Heroku
 
-1. Log in to GitHub and locate the GitHub Repository
+1. Log in to Heroku and locate the GitHub Repository
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
    * Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
@@ -305,6 +310,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 * Responsinator to check my website on all devices. [Responsinator](https://www.responsinator.com/).
 * Responsive web design columns and grids to help with css columns media query [Responsive Web Design Grid](https://www.w3schools.com/css/css_rwd_intro.asp).
 * README template from code institute fellow student [README.md template](https://github.com/ThijsTerporten/Climbing-Traveller/blob/master/README.md).
+* Bootstrap for templates and components [https://getbootstrap.com/docs/5.1/getting-started/introduction/].
 
 ## Content
 
@@ -317,7 +323,7 @@ All content in this project are taken from researching the website.
 
 ## Acknowledgements 
 
-I would like to acknowledge my mentor Antonio Rodriguez. He reassured me when I was doubtful of myself and my skills, and send me useful information during our mentoring sessions about things he saw I was struggling with. Especially during the media query, I was writing hundreds of lines of css, he showed me a simpler solution  - columns and grids - .
+I would like to acknowledge the tutor support available. They reassured me when I was doubtful of myself and my skills, and pointed me in teh direction of some useful information during our tutoring sessions about things they saw I was struggling with. Especially during the Django project and intergrating the API and email send into my Django project.
 
 **This project was created for educational purposes only, credit for all images goes to their owners**
 

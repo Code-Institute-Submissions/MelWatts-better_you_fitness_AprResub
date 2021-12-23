@@ -64,18 +64,17 @@
                     </li>
                     {% if user.is_authenticated %}
                     <ul>
-                    <li class="nav-item list-unstyled">
-                        <a class="nav-link active" href="{% url 'account_logout' %}">Logout</a>
-                    </li>
-                    {% else %}
-                    <li class="nav-item list-unstyled">
-                        <a class="nav-link active" href="{% url 'account_signup' %}">Register</a>
-                    </li>
-                    <li class="nav-item list-unstyled">
-                        <a class="nav-link active" href="{% url 'account_login' %}">Login</a>
-                    </li>
-                </ul>
-            </div>
+                        <li class="nav-item list-unstyled">
+                            <a class="nav-link active" href="{% url 'account_logout' %}">Logout</a>
+                        </li>
+                        {% else %}
+                        <li class="nav-item list-unstyled">
+                            <a class="nav-link active" href="{% url 'account_signup' %}">Register</a>
+                        </li>
+                        <li class="nav-item list-unstyled">
+                            <a class="nav-link active" href="{% url 'account_login' %}">Login</a>
+                        </li>
+                    </ul>
         {% endif %}
     </nav>
     <div class="container">
