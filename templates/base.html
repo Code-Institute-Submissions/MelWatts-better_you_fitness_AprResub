@@ -27,10 +27,12 @@
     })();
     </script>
     <script src="{% static "js/send.js" %}"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVtuPoUye4BAmEca2gLEJRlqfDScyGs3U&callback=initMap"></script>
+    <script src="{% static "js/maps.js" %}"></script>
 </head>
 
 <body class="d-flex flex-column h-100 main-bg">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black navbar-fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand">
                 <img src="https://res.cloudinary.com/dw11tbftk/image/upload/v1639672341/logo_bgiawg.png" width="190" height="100" alt="" loading="lazy">
@@ -44,12 +46,6 @@
                     <li class="nav-item list-unstyled">
                         <a class="nav-link active" href="{%  url 'homepage' %}">Home</a>
                       </li>
-                    <li class="nav-item list-unstyled">
-                        <a class="nav-link active" href="{% url 'findus' %}">Find us</a>
-                    </li>
-                    <li class="nav-item list-unstyled">
-                        <a class="nav-link active" href="{% url 'trainers' %}">Meet the trainers</a>
-                    </li>
                     <li class="nav-item list-unstyled">
                         <a class="nav-link active" href="{% url 'home' %}">Blog</a>
                     </li>
@@ -98,7 +94,7 @@
     </main>
 
     <footer class="footer mt-auto py-3 dark-bg">
-        <p class="m-0 text-center text-white">Made by Mel @ Better you fitenss</p>
+        <p class="m-0 text-center text-white">Made by Mel @ Better you fitness</p>
         <p class="m-0 text-center text-white">Follow us: 
             <ul class="social-networks">
                 <li>

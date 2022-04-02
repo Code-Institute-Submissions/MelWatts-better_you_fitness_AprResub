@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #000;
+    background-color: #fff;
 }
 
 
@@ -50,15 +50,7 @@ body {
     position: relative;
 }
 .map-container {
-    height: 60vh;
-    background: url('https://res.cloudinary.com/dw11tbftk/image/upload/v1639407412/mick-haupt-tJefy_Vu7Po-unsplash_vfyy2x.jpg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: #22333B;
 }
 
 .pilates-container {
@@ -150,7 +142,7 @@ h3 {
 h2 {
     font-family: 'Permanent Marker', cursive;
     text-align: center;
-    color: #fff;
+    color: #5E503F;
     padding: 20px;
 }
 
@@ -179,7 +171,7 @@ img{
 
 p {
      width: inherit;
-     color: #fff;
+     color: #5E503F;
  }  
 
 div#map {min-height: 360px;}
@@ -225,13 +217,14 @@ div#map {min-height: 360px;}
 
 .bio h1 {
     font-family: 'Permanent Marker', cursive;
+    color: #5E503F;
 }
 
 .bio p {
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
-    color: #fff;
+    color: #5E503F;
 }
 
 
@@ -255,7 +248,7 @@ div#map {min-height: 360px;}
 }
 
 .dark-bg {
-    background-color: #283618;
+    background-color: #22333B;
 }
 
 .card {
