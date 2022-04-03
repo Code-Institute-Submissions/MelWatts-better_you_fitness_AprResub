@@ -249,7 +249,7 @@ div#map {min-height: 360px;}
 }
 
 .card {
-    border: none;
+    border: 1px;
     background-color: transparent;
 }
 
@@ -364,6 +364,18 @@ p.style {
     color: #DDA15E;
     background: transparent;
     border: none;
+}
+
+/* members stories */
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 .social-media {
