@@ -26,10 +26,10 @@
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 shadow-lg p-3 mb-5 bg-body m-3">
                             <div class="card h-100 border-0">
                                 <div>
-                                    {% if story.before_image %}
+                                    {% if story.image_before %}
                                     <div>
                                         <a href="">
-                                            <img class="card-img-top img-fluid" src="{{ story.before_image }}" alt="{{ story.name }}">
+                                            <img class="card-img-top img-fluid" src="{{ story.image_before.url }}" alt="{{ story.name }}">
                                         </a>
                                     </div>
                                     {% else %}
@@ -37,10 +37,10 @@
                                         <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ story.name }}">
                                     </a>
                                     {% endif %}
-                                    {% if story.after_image %}
+                                    {% if story.image_after %}
                                     <div>
                                         <a href="">
-                                            <img class="card-img-top img-fluid" src="{{ story.after_image.url }}" alt="{{ story.name }}">
+                                            <img class="card-img-top img-fluid" src="{{ story.image_after.url }}" alt="{{ story.name }}">
                                         </a>
                                     </div>
                                     {% else %}
