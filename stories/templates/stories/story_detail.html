@@ -11,39 +11,35 @@
 {% endblock %}
 
 {% block content %}
-    <div class="overlay"></div>
-    <div class="container-fluid">
+<div class="overlay"></div>
+    <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
                 <div class="image-container my-5">
-                    <div class="transforamtion">
-                        {% if story.image_before %}
+                    {% if story.image_before %}
                         <div>
                             <a href="">
-                                <img class="card-img-top img-fluid" src="{{ story.image_before.url }}" alt="{{ story.name }}">
+                                <img class="img-fluid border border-dark shadow p-3 mb-5 bg-white rounded" src="{{ story.image_before.url }}" alt="{{ story.name }}">
                             </a>
-                        </div>
-                        {% else %}
-                        <a href="">
-                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ story.name }}">
-                        </a>
-                        {% endif %}
-                        {% if story.image_after %}
-                        <div>
+                            {% else %}
                             <a href="">
-                                <img class="card-img-top img-fluid" src="{{ story.image_after.url }}" alt="{{ story.name }}">
+                                <img class="img-fluid border border-dark shadow p-3 mb-5 bg-white rounded" src="{{ MEDIA_URL }}noimage.png" alt="{{ story.name }}">
                             </a>
+                            {% endif %}
+                            {% if story.image_after %}
+                                <a href="">
+                                    <img class="img-fluid border border-dark shadow p-3 mb-5 bg-white rounded" src="{{ story.image_after.url }}" alt="{{ story.name }}">
+                                </a>
+                            {% else %}
+                            <a href="">
+                                <img class="img-fluid border border-dark shadow p-3 mb-5 bg-white rounded" src="{{ MEDIA_URL }}noimage.png" alt="{{ story.name }}">
+                            </a>
+                            {% endif %}
                         </div>
-                        {% else %}
-                        <a href="">
-                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ story.name }}">
-                        </a>
-                        {% endif %}
-                    </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="product-details-container mb-5 mt-md-5">
+                <div class="stories-details-container mb-5 mt-md-5">
                     <p class="mb-0">{{ story.name }}</p>
                     {% if story.category %}
                     <p class="small mt-1 mb-0">
@@ -51,11 +47,6 @@
                             <i class="fas fa-tag mr-1"></i>{{ story.category.friendly_name }}
                         </a>
                     </p>
-                    {% endif %}
-                    {% if story.rating %}
-                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ story.rating }} / 5</small>
-                    {% else %}
-                        <small class="text-muted">No Rating</small>
                     {% endif %}
                     {% if request.user.is_superuser %}
                         <small class="ml-3">
@@ -80,7 +71,7 @@
         <div>
             <div class="container">
                 <div class="box">
-                    <div class="col card mb-3 mt-4 mx-1 offset-lg-2">
+                    <div class="col card mb-3 mt-4 mx-1 offset-lg-2 border border-dark shadow p-3 mb-5 bg-white rounded">
                         <h3>Comments:</h3>
                         <div>
                             {% for comment in comments %}
@@ -96,7 +87,7 @@
                             {% endfor %}
                         </div>
                     </div>
-                        <div class="col card mb-3 mt-4 mx-1 offset-lg-2">
+                        <div class="col card mb-3 mt-4 mx-1 offset-lg-2 border border-dark shadow p-3 mb-5 bg-white rounded">
                             {% if commented %}0
                                 <div class="alert alert-success" role="alert">
                                     Your comment is awaiting approval
