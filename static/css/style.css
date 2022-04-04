@@ -378,6 +378,11 @@ p.style {
 	z-index: -1;
 }
 
+.transformation {
+    display: block;
+    flex: auto;
+}
+
 .social-media {
     text-align: center;
     margin: auto;
