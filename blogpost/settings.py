@@ -33,7 +33,7 @@ DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['gym-blog-post.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['gym-blog.herokuapp.com', 'localhost']
 
 
 # Application definition
