@@ -69,8 +69,7 @@ def add_stories(request):
         form = StoryForm(request.POST, request.FILES)
         if form.is_valid():
             story = form.save()
-            jls_extract_var = 'Great! Thanks for you story,!'
-            messages.success(request, jls_extract_var)
+            messages.success(request, 'Great! Thanks for your Story!')
             return redirect(reverse('story_detail', args=[story.id]))
         else:
             messages.error(request, 'Opps! Please check your form is valid.')

@@ -5,7 +5,7 @@
 This project Better you fitness, is a webiste promoting a gym, and to get the user to sign in to a members only logon, browse classes and book an induction with one of the trainers.
 
 ## Showcase
-![Showcase-screenshot](media/homepage.JPG)
+![Showcase-screenshot](media/live.JPG)
 
 A deployed version of my website can be found [here.] ()
 
@@ -13,10 +13,12 @@ A deployed version of my website can be found [here.] ()
 
 * [UX](#ux)
   + [UX-stories](#ux-stories)
+  + [UX-Features](#ux-stories)
 * [Strategy](#strategy)
   + [User-needs](#user-needs)
   + [Business-vision](#business-vision)
 * [Scope](#scope)
+* [Design](#design)
 * [Structure](#structure)
 * [Wireframes](#wireframes)
   + [Changes](#changes-to-wireframes)
@@ -66,6 +68,27 @@ The end goal of the project is to help people to reach their weight and fitness 
 * As a user I would like to be educated in various nutrtion benefits to help with my personal goals.
 * As a user I would like to be register for my own account and to keep up with blogs posst.
 
+# User Features
+## Current Features
+### **Navigation menu displayed across all pages**
+
+The navigation menu will help the user move easily across all pages.
+
+The navigation buttons update depending on whether a user is logged in or not, and whether that user is the admin:
+
+| Nav Link              |Not logged in  |Logged in as user|Logged in as admin
+|:-------------         |:------------- |:----------------|:------------- |
+|Logo(back to home)     |&#9989;        |&#9989;          |&#9989;
+|Sign Out               |&#10060;       |&#9989;          |&#9989;
+|Register               |&#9989;        |&#10060;         |&#10060;
+|Sign In                |&#9989;        |&#10060;         |&#10060;
+|View Stories           |&#9989;        |&#9989;          |&#9989;
+|Comment                |&#10060;        |&#9989;          |&#9989;
+|View comments          |&#10060;        |&#9989;          |&#9989;
+|Edit story             |&#10060;        |&#9989;          |&#9989;
+|Delete story           |&#10060;        |&#9989;          |&#9989;
+|Add story              |&#10060;        |&#9989;          |&#9989;
+
 ## Strategy
 
 ### User Needs
@@ -82,6 +105,30 @@ The ability to read, like and leave a comment on recent blog posts.
 ## Scope
 
 I want my users to feel they are not alone, that  there is help to get them to thier weight and fitness goal or a place to meet likeminded friends whilst getting fit. 
+
+## Design
+  ### Overall Feel
+
+  For this site I wanted a very dark, cool feel that would emulate a workout experience. But this proved difficult in reading on smaller devices, especially in teh Nav bar, so I changed to a white background stricking images and dark buttons. 
+
+  ### Colour Scheme
+
+  While white is the main colour for the site and will be itilized as much as possible, I chose accent colours that I thought would not be overwhelming and add an elegance to it I didn;t choose to use all of teh colours on this swatch. 
+
+  ![colour scheme](media/colour.JPG)
+
+  The colours are dark but not on readable areas so as to not overwhelm the user. 
+  The dark grey will be used for the majority of the text and buttons.
+
+  ### Typography
+  I chose the [Montserra](https://fonts.google.com/specimen/Montserrat?query=Montserra) font for the text throughout the site. I like the simplicity of it an ease of reading. 
+
+  I chose the [Permanent+Marker](https://fonts.google.com/specimen/Permanent+Marker?query=Permanent+Marker) font for headers. I thought it was an interesting font that added a little bit of flair to the site. 
+
+### Imagery
+
+The imagery throughout the site will be primarily dictated by researching on unspalsh and pexels.
+
 
 ## Structure
 
@@ -110,7 +157,7 @@ This section contains some of the features this project contains:
 * There are 8 additional pages a 'Find Us' page with a map and contact details
 * A meet the trainers page with 3 sections and bio's of 3 personal trainers.
 * A blogs page where the user (if regitered) can like, or leave a comment on each blog.
-* A drop down menu of 3 addditional pages of classes, with a small description.
+* A drop down menu of 3 addditional pages of classes, with a small description. Then some FAQ.
 * A Register for an account page where the user will submit their personal details to open an account.
 * Once registered, the user can then have the option to log in in future, or log out.
 
@@ -225,27 +272,16 @@ Testing is done in the following way:
 
 Once I had a general idea on how to run testing I followed all steps for each of my pages which gave me the following results:
 
-* JS - Map [https://jshint.com/] - results [https://res.cloudinary.com/dw11tbftk/image/upload/v1640186979/jshint_map_i3cih9.jpg]
- * Undeclared 'google'
- * Undeclared 'document'
+* JS - Map [https://jshint.com/] - results []
 
-* JS - Email Send [https://jshint.com/] - results [https://res.cloudinary.com/dw11tbftk/image/upload/v1640186979/jshint_send_pkcevn.jpg]
-  * Undeclared 'emailjs'
-  * Expected property 'from_email' to be ordered before property 'from_email'
-  * Undeclared 'console'
-  * Undeclared 'console'
-  * I will further investigate these errors.
+* JS - Email Send [https://jshint.com/] - results []
 
-* CSS-validator results: [https://res.cloudinary.com/dw11tbftk/image/upload/v1640185442/css_results_ajogzr.jpg]
+* CSS-validator results: []
 
-* PEP8 results: [https://res.cloudinary.com/dw11tbftk/image/upload/v1640180546/pep8_results_xmkl2g.jpg]
+* PEP8 results: []
 
-* HTML results: [https://res.cloudinary.com/dw11tbftk/image/upload/v1640191281/html_results_cmshpo.jpg]
-  * I will investigate further to why these errors have shown.
+* HTML results: []
 
-* TestCase Django - I tried to follow the wakthrough to test my Django project, However I have ran out of time to conclude this process. I will investigate this further at a later date.
-
-* Jest - I tried to follow the wakthrough to test my Django project, However I have ran out of time to conclude this process. I will investigate this further at a later date.
 
 ### Bugs
 
@@ -263,17 +299,28 @@ I had successfully install a Googele Map API into my project and an Sign up for 
 This project is deployed using gitpod in combination with github pages and Heroku.
 I used gitpod to write all code and seeing it is linked with github it was easy to use the terminal to commit.
 
-### GitHub Pages
+### Environment Variables
++ Click the 'Settings' tab towards the top of the page
++ Locate the 'Config Vars' and click 'Reveal Config Vars'
++ The following variables all need to be added:[here](media/configVars.JPG)
 
 ## The project was deployed to Heroku
 
-1. Log in to Heroku and locate the GitHub Repository
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-   * Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+1. Set DEBUG flag to FALSE in settings.py
+2. Log in to Heroku and create a new app
+3. In heroku remove the 'convig vars' DISABLE_COLLECTSTATIC
+4. Go to deploy tab, scroll down to deploy branch.
+5. Go to Heroku check the build is in progress and all is ok.
+
+### Heroku Postgres Database
++ Go to the resources tab in Heroku.
++ In the Add-ons search bar look for Heroku Postgres & select it.
++ Choose the Hobby Dev-Free option in plans.
++ Click submit order form.
++ Go back to the build environment and install 2 more requirements:
+  + ```pip3 install dj_databse_url```
+  + ```pip3 install psycopg2-binary```
+
 
 ## Forking the GitHub Repository
 
