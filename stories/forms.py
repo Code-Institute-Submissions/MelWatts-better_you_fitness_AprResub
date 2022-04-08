@@ -7,10 +7,8 @@ class StoryForm(forms.ModelForm):
         model = Stories
         fields = '__all__'
 
-    image_before = forms.ImageField(label='Image',
-                        required=False)
+    image_before = forms.ImageField(label='Image', required=False)
 
-                        
 
 class CommentForm(forms.ModelForm):
     class Meta:

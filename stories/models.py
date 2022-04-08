@@ -16,9 +16,10 @@ class Stories(models.Model):
     def __str__(self):
         return self.name
 
+
 class Comment(models.Model):
     story = models.ForeignKey(Stories, on_delete=models.CASCADE,
-                             related_name="comments")
+                              related_name="comments")
     name = models.CharField(max_length=80)
     email = models.EmailField()
     body = models.TextField()
