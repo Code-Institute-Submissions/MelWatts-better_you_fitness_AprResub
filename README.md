@@ -280,7 +280,8 @@ Once I had a general idea on how to run testing I followed all steps for each of
 
 * PEP8 results: []
 
-* HTML results: []
+* HTML results: [media/results_circuits.JPG], [media/results_homepage.JPG], [media/results_logout.JPG], [media/results_members.JPG]
+[media/results_pilates.JPG], [media/results_sign_in.JPG], [media/results_sign_up.JPG], [media/results_spin.JPG]
 
 
 ### Bugs
