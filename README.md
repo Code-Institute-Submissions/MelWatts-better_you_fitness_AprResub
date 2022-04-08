@@ -272,9 +272,10 @@ Testing is done in the following way:
 
 Once I had a general idea on how to run testing I followed all steps for each of my pages which gave me the following results:
 
-* JS - Map [https://jshint.com/] - results []
+## JS 
++ [JS Email Send here](media/JSresults_Email.JPG) 
++ [JS Map here](media/JSresults_map.JPG)
 
-* JS - Email Send [https://jshint.com/] - results []
 
 ## CSS-validator results: 
 + [css circuits here](media/cssresults_circuits.JPG) 
@@ -328,7 +329,7 @@ I used gitpod to write all code and seeing it is linked with github it was easy 
 ### Environment Variables
 + Click the 'Settings' tab towards the top of the page
 + Locate the 'Config Vars' and click 'Reveal Config Vars'
-+ The following variables all need to be added:[here](media/configVars.JPG)
++ The following variables all need to be added: [here](media/configVars.JPG)
 
 ## The project was deployed to Heroku
 
