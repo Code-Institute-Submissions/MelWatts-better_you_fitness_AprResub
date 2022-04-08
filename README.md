@@ -276,15 +276,40 @@ Once I had a general idea on how to run testing I followed all steps for each of
 
 * JS - Email Send [https://jshint.com/] - results []
 
-* CSS-validator results: []
+## CSS-validator results: 
++ [css circuits here](media/cssresults_circuits.JPG) 
++ [css homepage here](media/cssresults_homepage.JPG) 
++ [css login here](media/cssresults_login.JPG)
++ [css pilates here](media/cssresults_pilates.JPG) 
++ [css sign up here](media/cssresults_signup.JPG) 
++ [css spin here](media/cssresults_spin.JPG)
 
-* PEP8 results: []
+## PEP8 results: 
++ [Python Blog Form here](media/results_blogForms.JPG) 
++ [Python Blog Model here](media/results_blogModels.JPG) 
++ [Python Blog URL here](media/results_blogUrls.JPG) 
++ [Python Blog Views here](media/results_blogViews.JPG) 
++ [Python BlogPost URL here](media/results_blogPostUrls.JPG) 
++ [Python Story Admin here](media/results_StoriesAdmin.JPG) 
++ [Python Stories Apps here](media/results_StoriesApps.JPG) 
++ [Python Stories Forms here](media/results_StoriesForms.JPG) 
++ [Python Storires Model here](media/results_StoriesModels.JPG) 
++ [Python Stories URL here](media/results_StoriesUrls.JPG) 
++ [Python Storires Views here](media/results_StoriesViews.JPG) 
 
-* HTML results: [media/results_circuits.JPG], [media/results_homepage.JPG], [media/results_logout.JPG], [media/results_members.JPG]
-[media/results_pilates.JPG], [media/results_sign_in.JPG], [media/results_sign_up.JPG], [media/results_spin.JPG]
+## HTML results: 
++ [HTML Circuits here](media/results_circuits.JPG) 
++ [HTML Homepage here](media/results_homepage.JPG) 
++ [HTML Logout here](media/results_logout.JPG) 
++ [HTML Members here](media/results_members.JPG)
++ [HTML Pilates here](media/results_pilates.JPG) 
++ [HTML Sign in here](media/results_sign_in.JPG) 
++ [HTML Sign up here](media/results_sign_up.JPG) 
++ [HTML Spin here](media/results_spin.JPG)
 
 
 ### Bugs
+After I deployed my project to Heroku, I thought I'd test it by adding in my 'stories' in the admin panel, but I get a Server Error (500) on the deployed site, but when I checked the local site, works fine. I have raised tutor suport, asked on slack and raised wiht my mentor Antonio Rodriguez. I will reearch further in how to fix this.
 
 #### Django 
 
