@@ -73,13 +73,18 @@
                 <div class="box">
                     <div class="col card mb-3 mt-4 mx-1 offset-lg-2 border border-dark shadow p-3 mb-5 bg-white rounded">
                         <div>
-                            {% if request.user.is_authenticated %}
-                            {% if request.user.is_superuser %}
-                                <a href="{% url 'add_story' %}"><h3>Upload your own transformation story</h3></a>
-                            {% endif %}
-                            {% endif %}
+                                <a href="{% url 'add_story' %}"><h3>To Upload your own transformation story please log in or register</h3></a>
                         </div>
                     </div>
+                    {% if request.user.is_authenticated %}
+                    {% if request.user.is_superuser %}
+                    <div class="col card mb-3 mt-4 mx-1 offset-lg-2 border border-dark shadow p-3 mb-5 bg-white rounded">
+                        <div>
+                                <a href="{% url 'add_story' %}"><h3>Upload your own transformation story</h3></a>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endif %}
                     <div class="col card mb-3 mt-4 mx-1 offset-lg-2 border border-dark shadow p-3 mb-5 bg-white rounded">
                         <h3>Comments:</h3>
                         <div>
@@ -96,13 +101,13 @@
                             {% endfor %}
                         </div>
                     </div>
+                    {% if user.is_authenticated %}
                         <div class="col card mb-3 mt-4 mx-1 offset-lg-2 border border-dark shadow p-3 mb-5 bg-white rounded">
                             {% if commented %}0
                                 <div class="alert alert-success" role="alert">
                                     Your comment is awaiting approval
                                 </div>
                                 {% else %}
-                                {% if user.is_authenticated %}
                                 <h3>Leave a comment:</h3>
                                 <p>Posting as: {{ user.username }}</p>
                                 <form method="post" style="margin-top: 1.3em;">
@@ -111,8 +116,8 @@
                                     <button type="submit" class="btn-dark btn btn-lg rounded-0 text-uppercase py-3">Submit</button>
                                 </form>
                             {% endif %}
-                            {% endif %}
                         </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>

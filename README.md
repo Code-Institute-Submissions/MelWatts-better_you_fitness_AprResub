@@ -55,7 +55,7 @@ User stories
 * As a returning visitor, I want to check if there has been any more blogs to rad and comments.
 
 
-The end goal of the project is to help people to reach their weight and fitness goal with confidence .
+The end goal of the project is to help people to reach their weight and fitness goal with confidence.
 
 ### UX stories
 
@@ -191,7 +191,7 @@ This project was build using the following technologies:
 * Cloudinary for image storage.
 * Heroku
 
-### Testing
+# Testing
 
 ## Testing Plan
 
@@ -311,6 +311,7 @@ Once I had a general idea on how to run testing I followed all steps for each of
 
 ### Bugs
 After I deployed my project to Heroku, I thought I'd test it by adding in my 'stories' in the admin panel, but I get a Server Error (500) on the deployed site, but when I checked the local site, works fine. I have raised tutor suport, asked on slack and raised wiht my mentor Antonio Rodriguez. I will reearch further in how to fix this.
++ UPDATE - I have re-installed PILLOW, freeze requirements, pushed to githib and deployed to Heroku and it has fixed this bug.
 
 #### Django 
 
